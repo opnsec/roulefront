@@ -1,10 +1,11 @@
 # LoopFrontend
+Roule Solidaire frontend server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+https://roulesolidaire.fr
 
+Developed with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-## In progress...
-
+backend server : https://github.com/opnsec/rouleback
 
 
 
