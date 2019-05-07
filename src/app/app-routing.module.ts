@@ -14,7 +14,7 @@ import { AuthGuard } from "./guard/auth.guard";
 import { LandingPageComponent } from "./landing-page/landing-page.component";
 
 const routes: Routes = [
-  { path: "", component: LandingPageComponent},
+  { path: "", component: LandingPageComponent },
   { path: "login", component: LoginComponent },
   { path: "signup", component: SignupComponent },
   { path: "settings", component: SettingsComponent,

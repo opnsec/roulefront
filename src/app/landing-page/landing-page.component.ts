@@ -18,6 +18,7 @@ export class LandingPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    window.location.href = 'https://roulesolidaire.fr';
   }
 
 }

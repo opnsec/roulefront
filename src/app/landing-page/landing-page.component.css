@@ -25,7 +25,7 @@ h1 {
 
 #top-section {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../assets/images/newlandingpageBG.jpg");
+    url("../../assets/images/landing.jpg");
   background-position: center;
   background-size: cover;
   height: 900px;
@@ -35,7 +35,7 @@ h1 {
   width: 600px;
   height: 300px;
   margin: auto;
-  padding-top: 300px;
+  padding-top: 100px;
   font-size: 2em;
   color: white;
   text-align: center;

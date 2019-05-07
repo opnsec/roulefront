@@ -27,18 +27,18 @@ export class SignupComponent implements OnInit {
       firstName: [null, Validators.required],
       lastName: [null, Validators.required],
       phoneNumber: [
-        null,
+        null/*,
         Validators.compose([
           Validators.required,
           Validators.pattern("0[0-9]{9}")
-        ])
+        ])*/
       ],
       email: [null, [Validators.required, Validators.email]],
       originalPassword: [
         null,
         Validators.compose([
-          Validators.required,
-          Validators.pattern("^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{7,}$")
+          Validators.required/*,
+          Validators.pattern("^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{7,}$")*/
         ])
       ],
       isDriver: [null, Validators.required]
