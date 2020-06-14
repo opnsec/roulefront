@@ -5,8 +5,7 @@
 export const environment = {
   production: false,
   // development backend URL is our local Express server
-  backendUrl: "http://localhost:3000",
-  GOOGLE_MAP_API_KEY: "***REMOVED***"
+  backendUrl: "http://localhost:3000"
 };
 
 /*
